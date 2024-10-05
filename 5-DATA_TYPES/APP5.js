@@ -8,7 +8,7 @@
 //* 6- Object
 //* 7- Function
 
-//* String = WRITTEN TEXTS ARE CALLED STRING AND
+//* 1- String = WRITTEN TEXTS ARE CALLED STRING AND
 //* ALSO IF WE USE IT WITHIN DOUBLE QUOTATION MARK TYPE IS ALSO CHANGING AS STRING
 
 //*-------------------------------------------------- */
@@ -34,7 +34,7 @@ console.log(typeof names);
 
 //*-------------------------------------------------- */
 
-//*Number = IF IT IS NOT WITHIN DOUBLE QUOTATION MARKS IT IS NUMBER
+//* 2- Number = IF IT IS NOT WITHIN DOUBLE QUOTATION MARKS IT IS NUMBER
 
 //*EXAMPLE
 
@@ -46,3 +46,105 @@ console.log(typeof cards);
 //?OUTCOME: NUMBER
 
 //*EXAMPLE
+
+let pencils = "17";
+console.log(pencils);
+console.log(typeof pencils);
+
+//! IF IT IS USED WITHIN DOUBLE QUOTES TYPE IS ALWAYS STRING !!!
+
+//*-------------------------------------------------- */
+
+//* 3- BOOLEAN TRUE AND FALSE
+
+//*EXAMPLE
+
+console.log(5 > 2);
+
+//?OUTCOME: TRUE
+
+//*EXAMPLE
+
+console.log(2 > 8);
+
+//?OUTCOME: FALSE
+
+//*EXAMPLE
+
+let h = 5;
+let m = 6;
+let total = h + m;
+console.log(total < 5);
+
+//?OUTCOME: FALSE
+
+//*-------------------------------------------------- */
+
+//** 4 - NULL = EMPTY
+
+//*EXAMPLE
+
+let v = null;
+console.log(v);
+
+//?OUTCOME: NULL
+
+//! IN ABOVE EXAMPLE WE ASSIGN THE "v" empty in the beginning!!!!
+
+//*EXAMPLE
+
+let x = null;
+x = 6;
+console.log(x);
+
+//?OUTCOME: FIRST NULL THAN WE ASSIGNED WITH 6 THAN OUTCOME BECAME 6
+
+//*-------------------------------------------------- */
+
+//* 5- UNDEFINED = NOTHING ASSGINED
+
+//*EXAMPLE
+
+let f;
+console.log(f);
+
+//?OUTCOME: UNDEFINED
+
+//*-------------------------------------------------- */
+
+//* 6 - OBJECT = IF WE ASSIGN THE VALUES WITHIN CURLYBRAKETS THAN IT BECOME OBJECT
+
+//*EXAMPLE
+
+let human = {
+  gender: "man",
+  name: "Osman",
+  age: 15,
+};
+console.log(typeof human);
+
+//?OUTCOME: OBJECT
+
+//*-------------------------------------------------- */
+
+//* 7- FUNCTION =
+
+//*EXAMPLE
+
+let func = function() {
+  console.log(func);
+};
+func();
+
+//?OUTCOME:
+
+//*-------------------------------------------------- */
+
+//* 8- ARRAY= IF WE ASSIGN THE VARIABLE WITHIN [] IT IS A ARRAY
+
+//*EXAMPLE
+
+let books = [1, 2, 3, 4];
+console.log(typeof books);
+
+//?OUTCOME:OBJECT
