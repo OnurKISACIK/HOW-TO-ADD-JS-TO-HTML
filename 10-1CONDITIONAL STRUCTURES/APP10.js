@@ -92,4 +92,5 @@ if (finalPizza >= 1 && finalPizza <= 40) {
   console.log("Only" + finalPizza + "Pizza Left!!!");
 } else {
   console.log("You Can Not Purchase More Than 40 Pizzas !!!");
+  console.log("test21232");
 }
