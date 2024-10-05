@@ -21,3 +21,4 @@
 
 //* BODY MASS INDEX
 //* WEIGHT/MASS*2
+console.log("test 1");
