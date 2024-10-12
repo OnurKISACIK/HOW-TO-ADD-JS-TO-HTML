@@ -1,1 +1,1 @@
-Examples of JS tutorial
+Examples of JS tutoriale

@@ -25,7 +25,7 @@ console.log(typeof names);
 
 let cars = "5";
 console.log(cars);
-console.log(typeof names);
+console.log(typeof cars);
 
 //?OUTCOME: 5
 //?OUTCOME: STRING
@@ -119,7 +119,7 @@ console.log(f);
 let human = {
   gender: "man",
   name: "Osman",
-  age: 15,
+  age: 15
 };
 console.log(typeof human);
 
